@@ -6,15 +6,15 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class FormularioActivity extends AppCompatActivity {
+public class UtilidadActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_formulario);
+        setContentView(R.layout.activity_utilidad);
     }
-    public void onClick(View view){
-        Intent irUtilidad = new Intent(FormularioActivity.this, UtilidadActivity.class);
-        startActivity(irUtilidad);
+    public void volverFormulario (View view){
+        Intent volverForm = new Intent(UtilidadActivity.this, FormularioActivity.class);
+        startActivity(volverForm);
     }
 }
