@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".OpcionesUso">
+
+    <LinearLayout
+        android:id="@+id/titulo"
+        android:layout_width="match_parent"
+        android:layout_height="235dp"
+        android:orientation="vertical"
+        android:scrollbarSize="15sp">
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="114dp"
+            android:layout_height="117dp"
+            android:background="#FDFDFD"
+            android:backgroundTint="#FDFDFD"
+            android:onClick="volverFormulario"
+            android:src="@drawable/flecha3" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="344dp"
+            android:layout_height="93dp"
+            android:foregroundTint="#000000"
+            android:text="¿Para que usas la aplicación?"
+            android:textAlignment="center"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/opciones"
+        android:layout_width="316dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titulo"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="43dp"
+        android:orientation="vertical">
+
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/fragmentContainerView9"
+            android:name="com.example.doitnow.OpcionesdeUtilidad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:layout="@layout/fragment_opcionesde_utilidad"/>
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="356dp"
+        android:layout_height="61dp"
+        android:layout_below="@+id/opciones"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="184dp">
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="354dp"
+            android:layout_height="58dp"
+            android:backgroundTint="#83AAA2"
+            android:onClick="onClick"
+            android:text="Siguiente"
+            app:cornerRadius="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.49"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.976" />
+    </FrameLayout>
+
+
+  </RelativeLayout>

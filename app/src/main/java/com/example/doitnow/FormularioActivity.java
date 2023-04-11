@@ -14,7 +14,7 @@ public class FormularioActivity extends AppCompatActivity {
         setContentView(R.layout.activity_formulario);
     }
     public void onClick(View view){
-        Intent irUtilidad = new Intent(FormularioActivity.this, UtilidadActivity.class);
+        Intent irUtilidad = new Intent(FormularioActivity.this, OpcionesUso.class);
         startActivity(irUtilidad);
     }
 }

@@ -2,4 +2,11 @@
     <string name="app_name">DoitNow</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    /*Textos para el Fragment opcionesde_utilidad*/
+    <string name="trabajo">Trabajo</string>
+    <string name="estudio">Estudio</string>
+    <string name="otros">Otros</string>
+
+
 </resources>
