@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".OpcionesdeUtilidad">
+    tools:context="panel_opciones_uso.OpcionesdeUtilidad">
 
     <LinearLayout
         android:layout_width="354dp"
@@ -24,6 +24,7 @@
                 android:id="@+id/radioButton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/alata"
                 android:text="@string/trabajo"
                 android:textAlignment="center"
                 android:textSize="20sp" />
@@ -32,6 +33,7 @@
                 android:id="@+id/radioButton2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/alata"
                 android:text="@string/estudio"
                 android:textAlignment="center"
                 android:textSize="20sp" />
@@ -40,6 +42,7 @@
                 android:id="@+id/radioButton3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/alata"
                 android:text="@string/otros"
                 android:textAlignment="center"
                 android:textSize="20sp" />

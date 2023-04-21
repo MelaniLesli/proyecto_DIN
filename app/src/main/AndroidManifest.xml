@@ -12,13 +12,28 @@
         android:theme="@style/Theme.DoitNow"
         tools:targetApi="31">
         <activity
+            android:name=".Subtarea"
+            android:exported="false" />
+        <activity
+            android:name=".Tarea"
+            android:exported="false" />
+        <activity
+            android:name=".Panel_lista_tareas"
+            android:exported="false" />
+        <activity
+            android:name="panel_usuario.PanelUsuario"
+            android:exported="false" />
+        <activity
+            android:name="panel_pasatiempos.Pasatiempos"
+            android:exported="false" />
+        <activity
             android:name=".Horarios"
             android:exported="false" />
         <activity
-            android:name=".OpcionesUso"
+            android:name="panel_opciones_uso.OpcionesUso"
             android:exported="false" />
         <activity
-            android:name=".FormularioActivity"
+            android:name="panel_formulario_registro.FormularioActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

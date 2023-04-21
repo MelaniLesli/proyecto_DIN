@@ -5,7 +5,8 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-    tools:context=".OpcionesUso">
+    android:background="@drawable/background_color"
+    tools:context="panel_opciones_uso.OpcionesUso">
 
     <LinearLayout
         android:id="@+id/titulo"
@@ -16,21 +17,23 @@
 
         <ImageButton
             android:id="@+id/imageButton"
-            android:layout_width="114dp"
-            android:layout_height="117dp"
-            android:background="#FDFDFD"
+            android:layout_width="99dp"
+            android:layout_height="106dp"
+            android:background=""
             android:backgroundTint="#FDFDFD"
             android:onClick="volverFormulario"
             android:src="@drawable/flecha3" />
 
         <TextView
             android:id="@+id/textView3"
-            android:layout_width="344dp"
+            android:layout_width="match_parent"
             android:layout_height="93dp"
+            android:fontFamily="@font/alata"
             android:foregroundTint="#000000"
-            android:text="¿Para que usas la aplicación?"
+            android:text="¿Para que utilizarás la aplicación?"
             android:textAlignment="center"
-            android:textSize="30sp" />
+            android:textColor="#090909"
+            android:textSize="34sp" />
     </LinearLayout>
 
     <LinearLayout
@@ -45,7 +48,7 @@
 
         <androidx.fragment.app.FragmentContainerView
             android:id="@+id/fragmentContainerView9"
-            android:name="com.example.doitnow.OpcionesdeUtilidad"
+            android:name="panel_opciones_uso.OpcionesdeUtilidad"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             tools:layout="@layout/fragment_opcionesde_utilidad"/>

@@ -1,14 +1,16 @@
-package com.example.doitnow;
+package panel_usuario;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class Horarios extends AppCompatActivity {
+import com.example.doitnow.R;
+
+public class PanelUsuario extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_horarios);
+        setContentView(R.layout.activity_panel_usuario);
     }
 }

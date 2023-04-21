@@ -2,11 +2,39 @@
     <string name="app_name">DoitNow</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- Textos hint -->
+    <string name="nombreCompleto">Nombres Completos</string>
+    <string name="nombreUsuario">Nombre Usuario</string>
+    <string name="edad">Edad</string>
 
-    /*Textos para el Fragment opcionesde_utilidad*/
+    <!--Textos para el Fragment opcionesde_utilidad -->
     <string name="trabajo">Trabajo</string>
     <string name="estudio">Estudio</string>
     <string name="otros">Otros</string>
+
+    <!-- Listado Pasatiempos -->
+    <string-array name="lista_de_actividades">
+        <item>Aprender a cocinar</item>
+        <item>Pintar</item>
+        <item>Aprender inglés</item>
+        <item>Hacer deporte</item>
+        <item>Leer</item>
+        <item>Jugar videojuegos</item>
+        <item>Escribir</item>
+        <item>Bailar</item>
+        <item>Ver películas y series</item>
+        <item>Coleccionar cosas</item>
+        <item>Escuchar música</item>
+        <item>Hacer yoga</item>
+        <item>Tocar un instrumento musical</item>
+        <item>Tejer</item>
+        <item>Jugar juegos de mesa</item>
+        <item>Hacer manualidades</item>
+        <item>Practicar fotografía</item>
+        <item>Trabajar en el jardín</item>
+        <item>Hacer un voluntariado</item>
+        <item>Viajar</item>
+    </string-array>
 
 
 </resources>

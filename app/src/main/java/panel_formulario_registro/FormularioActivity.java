@@ -1,10 +1,13 @@
-package com.example.doitnow;
+package panel_formulario_registro;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+
+import panel_opciones_uso.OpcionesUso;
+import com.example.doitnow.R;
 
 public class FormularioActivity extends AppCompatActivity {
 

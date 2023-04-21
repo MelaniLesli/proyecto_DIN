@@ -6,6 +6,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import panel_formulario_registro.FormularioActivity;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override

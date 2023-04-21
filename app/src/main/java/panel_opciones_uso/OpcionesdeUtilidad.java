@@ -1,4 +1,4 @@
-package com.example.doitnow;
+package panel_opciones_uso;
 
 import android.os.Bundle;
 
@@ -10,17 +10,22 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.example.doitnow.R;
+
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link HorarioEstudio#newInstance} factory method to
+ * Use the {@link OpcionesdeUtilidad#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class HorarioEstudio extends Fragment {
+public class OpcionesdeUtilidad extends Fragment {
 
 
-    public HorarioEstudio() {
+
+    public OpcionesdeUtilidad() {
         // Required empty public constructor
     }
+
+
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
@@ -29,15 +34,9 @@ public class HorarioEstudio extends Fragment {
     }
 
     @Override
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-
-    }
-
-    @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_horario_estudio, container, false);
+        return inflater.inflate(R.layout.fragment_opcionesde_utilidad, container, false);
     }
 }
